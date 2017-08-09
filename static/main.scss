@@ -1,0 +1,29 @@
+@import 'dropzone.min';
+@import 'filepicker';
+
+.navbar{
+  margin-top: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.albumsPhoto {
+  width: 204px;
+  height: 204px;
+  float: left;
+  border: solid #c7c7c7 2px;
+  background-color: #e1e1e1;
+  margin: 5px;
+}
+
+.imgWrapper{
+  display: flex;
+}
+
+.albumsImage{
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+}
